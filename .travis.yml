@@ -5,7 +5,7 @@ before_install:
 - curl https://raw.githubusercontent.com/express42/otus-homeworks/2019-11/run.sh |
   bash
 notifications:
-  slack: devops-team-otus:rpSwtMcSnqmuVhTG3h8W9MrD
+  slack: alexander_rytikov:rpSwtMcSnqmuVhTG3h8W9MrD
     rooms:
       - secure: "yE6cUqhjQOVaKyOcc1R/Gz82Q8qU4YOGmwGYmllf/CpMP6eObQ4KnS3eeY1KGR2xiuCoXE4F6gjeiP4zXkglHxh+twvZXe0Fr0AYS4OrS3hKVhzWnQ83vFvlBugNd21GT5XvdCpCe2c+pPB5lG1qDYn+ouM1imbnhS/TpIkdtNAcZ4gkR1pQB0On/INuNJUZ+F4s2OhylthAfxmjyml+B8HkC9lm123l/6E4CcM2RjP9r61ZK8yhen/LjJ6o1Pz4juqB3ZA4dpnw98HSIO5cevFj6xmRm8nObRDuKjquUGmzPIEfQNEoR6fetfi6cfcMZfbcbXHtfIk15u6rt1Y7OYdb3g6+NVBWzcA2IEHIwfA5gcQ/qQNrWoFUI1+sFInOId6AnDf2wD8c5RMkWub09j1MpwiILg7n9OWh8yB7C3hZOhGfjxgmFA29Ua9GDUVgfaLJyYuIrjwS6A17YshaxNHyi7PBkngor7SoTMkiUpzidmZzQZ+r0+FoINxh7eMau8x1e2ozpESXGVjCdZVs7JDu/n+n0DuU2X0ZCT3W1noAYrP4Lou/MHgU8WQ1GT9gvntXah5MCaOkFRVBfL7hwFcKfvAnGL3jUCW4wqJy4gG61ZhFo4vp3KYmJPtPxKpt5ipW5yUEk4uc0kOYbXJCdKutFP1K1blqtxlyxluGTCc="
     on_success: always
