@@ -1,7 +1,7 @@
 # asrytikov_infra
-asrytikov Infra repository
- bastion_IP = 35.207.126.33
- internalhost_IP = 10.156.0.5
+
+bastion_IP = 35.207.126.33
+someinternalhost_IP = 10.156.0.5
 
 Access to internalhost
 ssh -J ak@35.207.126.33 ak@10.156.0.5
