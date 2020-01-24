@@ -1,0 +1,10 @@
+{
+	"project_id": "infra-12345",
+	"source_image_family": "ubuntu-1604-lts",
+	"machine_type": "f1-micro",
+	"disk_size": "10",
+        "disk_type": "pd-standart",
+        "image_description": "reddit-base",
+        "network": "default",
+        "tags": "puma"
+}
