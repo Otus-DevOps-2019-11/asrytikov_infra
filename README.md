@@ -1,5 +1,5 @@
 # asrytikov_infra
-
+#cloud-bastion
 bastion_IP = 35.207.126.33
 someinternalhost_IP = 10.156.0.5
 
@@ -15,6 +15,7 @@ host internalhost
         hostname 10.156.0.5
         User ak
         ProxyJump bastion
+
 
 testapp_IP = 35.198.156.110
 testapp_port = 9292
