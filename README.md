@@ -25,3 +25,7 @@ gcloud compute instances create reddit-app  --boot-disk-size=10GB   --image-fami
 
 #create firewall rule
 gcloud compute firewall-rules create default-puma-server --allow tcp:9292 --source-ranges 0.0.0.0/0
+
+#Terraform-1
+
+При добавлении через веб-интерфейс ssh-ключ для appuser_web к какому-либо результату это действие не приведет. Данный ключ не описан в конфигурции terraform.
