@@ -28,3 +28,9 @@ gcloud compute firewall-rules create default-puma-server --allow tcp:9292 --sour
 #Terraform-1
 
 При добавлении через веб-интерфейс ssh-ключ для appuser_web к какому-либо результату это действие не приведет. Данный ключ не описан в конфигурции terraform.
+
+#Terraform-2
+
+Настроено хранение стейт файла в удаленном бекенде.
+При паралельном запуске применения конфигурации запускается блокировка применения конфигурации и появляется ошибка вида:
+Error: Error locking state: Error acquiring the state lock: writing "gs://storage-bucket-262714/tf-state-prod/default.tflock" failed: googleapi: Error 412: Precondition Failed, conditionNotMet

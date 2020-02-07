@@ -36,7 +36,3 @@ variable source_ranges {
   description = "network"
   default     = ["0.0.0.0/0"]
 }
-
-variable location {
-  default = "europe-west1"
-}
