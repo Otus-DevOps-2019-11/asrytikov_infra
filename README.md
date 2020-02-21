@@ -35,3 +35,7 @@ gcloud compute firewall-rules create default-puma-server --allow tcp:9292 --sour
 Настроено хранение стейт файла в удаленном бекенде.
 При паралельном запуске применения конфигурации запускается блокировка применения конфигурации и появляется ошибка вида:
 Error: Error locking state: Error acquiring the state lock: writing "gs://storage-bucket-262714/tf-state-prod/default.tflock" failed: googleapi: Error 412: Precondition Failed, conditionNotMet
+
+#Ansible-1
+
+При выполнении ansible app -m command -a 'rm -rf ~/reddit' папка reddit удаляется, при запуске плейбука clone.yml папка заново запишется и поэтому мы получаем сообщение changed=1
