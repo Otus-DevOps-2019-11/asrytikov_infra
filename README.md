@@ -39,3 +39,7 @@ Error: Error locking state: Error acquiring the state lock: writing "gs://storag
 #Ansible-1
 
 При выполнении ansible app -m command -a 'rm -rf ~/reddit' папка reddit удаляется, при запуске плейбука clone.yml папка заново запишется и поэтому мы получаем сообщение changed=1
+
+#Ansible-2
+
+Создано несколько playbook для установки и настройки приложения
