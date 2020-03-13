@@ -5,3 +5,14 @@
 .terraform/
 *.retry
 jdauphant.nginx
+# Vagrant & molecule
+.vagrant/
+*.log
+*.pyc
+.molecule
+.cache
+.pytest_cache
+/ansible/venv/
+/ansible/ansible4/
+/ansible/lib/
+/ansible/bin/

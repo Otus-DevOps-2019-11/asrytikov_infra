@@ -47,3 +47,7 @@ Error: Error locking state: Error acquiring the state lock: writing "gs://storag
 #Ansible-3
 
 Разделение плайбуков на разные роли. Stage и Prod окружения. Nginx. Ansible Vault
+
+#Ansible-4
+
+Установка vagrant, доработка ролей для Vagrant. Тестирование ролей Molecule. Сборка образа Packer
