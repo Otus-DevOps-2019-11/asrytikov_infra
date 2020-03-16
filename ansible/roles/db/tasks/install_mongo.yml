@@ -1,0 +1,20 @@
+- name: Add APT key
+  apt_key:
+      id: E52529D4
+      keyserver: keyserver.ubuntu.com
+  tags: install
+- name: Add APT repository
+  apt_repository:
+       repo: deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.0 multiverse
+       state: present
+  tags: install
+- name: Install mongodb
+  apt:
+      name: mongodb-org
+      state: present
+  tags: install
+- name: Configure service surevisor
+  systemd:
+      name: mongod
+      enabled: yes
+  tags: install
